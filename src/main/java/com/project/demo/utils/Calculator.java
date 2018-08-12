@@ -16,6 +16,7 @@ import java.util.Stack;
  */
 public class Calculator {
 
+
     private String expression;// 表达式原始格式
     private Stack<String> ops = new Stack<String>();// 操作栈
     private Stack<String> vals = new Stack<String>();// 值栈
