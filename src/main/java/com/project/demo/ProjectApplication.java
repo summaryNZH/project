@@ -13,7 +13,7 @@ import tk.mybatis.spring.annotation.MapperScan;
 @Controller
 //@EnableWebMvc
 @SpringBootApplication
-@MapperScan(basePackages = {"com.project.demo.mapper"})
+@MapperScan(basePackages = "com.project.demo.mapper")
 public class ProjectApplication extends WebMvcConfigurerAdapter implements CommandLineRunner {
     private Logger logger = LoggerFactory.getLogger(ProjectApplication.class);
 
