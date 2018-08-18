@@ -90,7 +90,7 @@ final public class DateRange implements Iterable<ShortDate>,
 
     /**
      * connect 上不代表有交集
-     * 例如 : [2015-01-15 - 2015-01-20 ] [2015-01-20] - [2015-01-25]
+     * 例如 : [2017-01-15 - 2017-01-20 ] [2017-01-20] - [2017-01-25]
      */
     public boolean isConnected(DateRange dates) {
         return !isNotConnected(dates);
